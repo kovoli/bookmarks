@@ -145,8 +145,6 @@ AUTHENTICATION_BACKENDS = [
     'account.authentication.EmailAuthBackend',
 ]
 
-SOCIAL_AUTH_FACEBOOK_KEY = '2449918108590605' # Facebook App ID
-SOCIAL_AUTH_FACEBOOK_SECRET = '3046466e1ec8bc6c258da73877e56c8f' # Facebook App Secret
 
 
 
@@ -156,6 +154,3 @@ LOGOUT_URL = 'logout'
 
 # Настройка EMAIL_BACKEND указывает класс, который будет использоваться для отправки электронных писем в консоль.
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '663206741737-lju0igef7gh9c6j5kovnjgl381g4jjha.apps.googleusercontent.com' # Google Consumer Key
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '-w3snRGkdTtvz2xtMCNTyvRS'  # Google Consumer Secret
